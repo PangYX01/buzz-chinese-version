@@ -194,7 +194,7 @@ html, body {
 				</div>
 				<div data-elementor-type="wp-page" data-elementor-id="privacy-policy" class="elementor elementor-privacy-policy" data-elementor-post-type="page" id="content">
 				<div class="elementor-element e-flex e-con-boxed e-con e-parent" data-element_type="container" style="--padding-top:60px;--padding-bottom:60px;--padding-left:20px;--padding-right:20px;">
-					<div class="e-con-inner" style="max-width:900px;margin:0 auto;">
+					<div class="e-con-inner">
 				<div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h1 class="elementor-heading-title elementor-size-default">私隱政策</h1>
@@ -265,6 +265,11 @@ html, body {
 				</div>
 				</div>
 <style>
+.elementor-privacy-policy .e-con.e-con > .e-con-inner > .elementor-widget,
+.elementor-privacy-policy.elementor .e-con > .elementor-widget {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .privacy-policy-content h2 {
 	margin-top: 2em;
 	margin-bottom: 0.75em;
